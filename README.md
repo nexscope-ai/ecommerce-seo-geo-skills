@@ -1,5 +1,3 @@
-![SEO & GEO Skills Banner](./banner.png)
-
 <div align="center">
 
 # E-commerce SEO & GEO Skills by Nexscope
