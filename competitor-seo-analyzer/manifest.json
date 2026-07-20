@@ -1,0 +1,8 @@
+{
+  "name": "competitor-seo-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze competitor SEO and GEO strategies. Reverse-engineer what makes competitors rank in Google and AI search. Identify schema usage, content strategy, and technical advantages. Triggers: competitor SEO, competitor analysis, reverse engineer SEO, competitor ranking, SEO spy.",
+  "triggers": ["competitor SEO", "competitor analysis", "reverse engineer SEO", "competitor ranking", "SEO spy"],
+  "files": ["SKILL.md"],
+  "metadata_note": "Knowledge-based skill. No API calls required."
+}

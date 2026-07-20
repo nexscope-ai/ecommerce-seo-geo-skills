@@ -1,0 +1,8 @@
+{
+  "name": "ecommerce-seo-auditor",
+  "version": "1.0.0",
+  "description": "Comprehensive technical and on-page SEO audit for e-commerce pages. Check title tags, meta descriptions, headers, keywords, internal linking, page speed, mobile optimization, crawlability. Triggers: SEO audit, technical SEO, on-page SEO, site audit, SEO check.",
+  "triggers": ["SEO audit", "technical SEO", "on-page SEO", "site audit", "SEO check"],
+  "files": ["SKILL.md"],
+  "metadata_note": "Knowledge-based skill. No API calls required."
+}

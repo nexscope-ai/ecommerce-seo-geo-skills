@@ -1,0 +1,8 @@
+{
+  "name": "faq-content-generator",
+  "version": "1.0.0",
+  "description": "Generate high-impact FAQ content for e-commerce pages that drives both GEO citations and SEO traffic. Creates Q&A format content with schema markup included. Triggers: FAQ content, generate FAQ, FAQ schema, product FAQ, questions and answers.",
+  "triggers": ["FAQ content", "generate FAQ", "FAQ schema", "product FAQ", "questions and answers"],
+  "files": ["SKILL.md"],
+  "metadata_note": "Knowledge-based skill. No API calls required."
+}

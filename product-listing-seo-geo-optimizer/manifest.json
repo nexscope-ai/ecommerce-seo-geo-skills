@@ -1,0 +1,17 @@
+{
+  "name": "product-listing-seo-geo-optimizer",
+  "version": "1.0.0",
+  "description": "Full product listing optimization for both traditional SEO (Google) and GEO (AI search). Optimize title, description, bullets, images, schema, and content simultaneously for dual search visibility. Triggers: optimize listing, SEO and GEO, listing optimization, product page optimization, optimize for Google and AI,al search optimization.",
+  "triggers": [
+    "optimize listing",
+    "SEO and GEO",
+    "listing optimization",
+    "product page optimization",
+    "optimize for Google and AI",
+    "dual search optimization",
+    "full listing audit",
+    "SEO GEO optimizer"
+  ],
+  "files": ["SKILL.md"],
+  "metadata_note": "Knowledge-based skill. No API calls required."
+}

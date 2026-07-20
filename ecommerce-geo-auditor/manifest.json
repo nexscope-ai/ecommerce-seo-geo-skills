@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-geo-auditor",
+  "version": "1.0.0",
+  "description": "Comprehensive GEO audit for e-commerce pages. Diagnose exactly why a product page, listing, or store is not appearing in AI search results (ChatGPT, Perplexity, Claude, Gemini, Google AI Overview). Produces a detailed audit report with specific fixes. Triggers: GEO audit, why am I not in ChatGPT, AI search audit, not appearing in AI results, GEO score, AI visibility audit, check GEO, audit AI search readiness, why doesn't AI recommend me.",
+  "triggers": [
+    "GEO audit",
+    "why am I not in ChatGPT",
+    "AI search audit",
+    "not appearing in AI results",
+    "GEO score",
+    "AI visibility audit",
+    "check GEO",
+    "audit AI search readiness",
+    "why doesn't AI recommend me",
+    "GEO health check",
+    "AI citation audit",
+    "why is my competitor in AI results",
+    "GEO diagnosis"
+  ],
+  "files": [
+    "SKILL.md",
+    "references/geo-pillars.md",
+    "references/audit-checklist.md",
+    "references/schema-templates.md"
+  ],
+  "metadata_note": "Knowledge-based skill. No API calls required. Provides deep GEO diagnostic audit with evidence-backed findings and prioritized fix roadmap. Refers to Nexscope GEO Check tool for automated live-URL scoring."
+}

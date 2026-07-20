@@ -1,0 +1,8 @@
+{
+  "name": "schema-validator",
+  "version": "1.0.0",
+  "description": "Diagnose schema markup errors and completeness issues. Check for missing required fields, wrong data types, validation errors. Provide corrected schema code. Triggers: validate schema, schema errors, structured data errors, fix schema, schema validation.",
+  "triggers": ["validate schema", "schema errors", "structured data errors", "fix schema", "schema validation"],
+  "files": ["SKILL.md"],
+  "metadata_note": "Knowledge-based skill. No API calls required."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "geo-content-optimizer",
+  "version": "1.0.0",
+  "description": "Rewrite and optimize existing e-commerce content for AI search visibility. Transform keyword-stuffed or thin content into GEO-ready, citation-friendly, buyer-intent content. Triggers: GEO content, AI search content, optimize content, rewrite content, content for AI.",
+  "triggers": ["GEO content", "AI search content", "optimize content", "rewrite content", "content for AI"],
+  "files": ["SKILL.md"],
+  "metadata_note": "Knowledge-based skill. No API calls required."
+}
