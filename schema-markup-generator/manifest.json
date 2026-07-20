@@ -1,8 +1,8 @@
 {
   "name": "schema-markup-generator",
-  "version": "1.0.0",
-  "description": "Generate complete, ready-to-paste JSON-LD schema markup for e-commerce pages. Covers Product, Offer, AggregateRating, FAQPage, BreadcrumbList, Organization schemas. Triggers: schema markup, JSON-LD, structured data, product schema, generate schema.",
-  "triggers": ["schema markup", "JSON-LD", "structured data", "product schema", "generate schema", "schema generator"],
+  "version": "1.1.0",
+  "description": "Generate strict, evidence-safe ecommerce JSON-LD from verified visible facts.",
+  "triggers": ["schema markup", "JSON-LD", "product schema", "generate schema"],
   "files": ["SKILL.md"],
-  "metadata_note": "Knowledge-based skill. No API calls required."
+  "metadata_note": "Never invent ratings, reviews, prices, stock, or policies."
 }

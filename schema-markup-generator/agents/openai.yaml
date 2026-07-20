@@ -1,0 +1,4 @@
+interface:
+  display_name: "Schema Markup Generator"
+  short_description: "Generate strict ecommerce JSON-LD from facts"
+  default_prompt: "Use $schema-markup-generator to generate valid JSON-LD from these verified page facts."

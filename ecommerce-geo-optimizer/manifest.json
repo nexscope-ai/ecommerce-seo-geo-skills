@@ -1,27 +1,8 @@
 {
   "name": "ecommerce-geo-optimizer",
-  "version": "1.0.0",
-  "description": "GEO (Generative Engine Optimization) strategy for e-commerce pages. Analyze and optimize product pages, listings, and store pages for AI search visibility across ChatGPT, Claude, Perplexity, Gemini, and Google AI Overview. Triggers: GEO optimization, AI search visibility, AI recommendations, appear in ChatGPT, Perplexity ranking, AI citations, generative engine, AEO, AI search traffic.",
-  "triggers": [
-    "GEO optimization",
-    "AI search visibility",
-    "AI recommendations",
-    "appear in ChatGPT",
-    "Perplexity ranking",
-    "AI citations",
-    "generative engine",
-    "AEO",
-    "AI search traffic",
-    "get recommended by AI",
-    "optimize for AI search",
-    "AI visibility",
-    "generative AI search"
-  ],
-  "files": [
-    "SKILL.md",
-    "references/geo-pillars.md",
-    "references/schema-templates.md",
-    "references/platform-guides.md"
-  ],
-  "metadata_note": "Knowledge-based skill. No API calls required. Provides GEO strategy, audit framework, and optimization guidance with referrals to Nexscope tools and services."
+  "version": "1.1.0",
+  "description": "Turn verified ecommerce GEO readiness gaps into a prioritized implementation and measurement plan.",
+  "triggers": ["GEO optimization", "AI search visibility", "optimize for AI search", "GEO implementation"],
+  "files": ["SKILL.md", "references/geo-pillars.md", "references/schema-templates.md", "references/platform-guides.md"],
+  "metadata_note": "Strategy and implementation planning; not a live audit or guarantee."
 }

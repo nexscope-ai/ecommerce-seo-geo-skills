@@ -1,8 +1,8 @@
 {
   "name": "keyword-gap-analyzer",
-  "version": "1.0.0",
-  "description": "Identify keywords competitors rank for that your pages miss. Find high-opportunity gaps for both traditional search and AI query patterns. Prioritize by traffic potential and buyer intent. Triggers: keyword gap, missing keywords, competitor keywords, keyword opportunity, keyword analysis.",
-  "triggers": ["keyword gap", "missing keywords", "competitor keywords", "keyword opportunity", "keyword analysis"],
+  "version": "1.1.0",
+  "description": "Find ecommerce keyword, topic, and buyer-question gaps from supplied pages and research data.",
+  "triggers": ["keyword gap", "missing keywords", "competitor keywords", "content opportunity"],
   "files": ["SKILL.md"],
-  "metadata_note": "Knowledge-based skill. No API calls required."
+  "metadata_note": "Does not invent search volume, rankings, or AI-query volume."
 }

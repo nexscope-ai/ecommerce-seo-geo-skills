@@ -1,8 +1,8 @@
 {
   "name": "buyer-intent-writer",
-  "version": "1.0.0",
-  "description": "Write buyer-intent-driven product descriptions and page content. Map buyer journey stages and create content that matches how shoppers ask AI for buying recommendations. Triggers: buyer intent, product description, buying guide, purchase intent, conversion content.",
-  "triggers": ["buyer intent", "product description", "buying guide", "purchase intent", "conversion content"],
+  "version": "1.1.0",
+  "description": "Write evidence-safe ecommerce copy around buyer needs, objections, comparisons, and purchase intent.",
+  "triggers": ["buyer intent", "product description", "buying guide", "conversion copy"],
   "files": ["SKILL.md"],
-  "metadata_note": "Knowledge-based skill. No API calls required."
+  "metadata_note": "Knowledge-based skill. No live demand or visibility data is implied."
 }

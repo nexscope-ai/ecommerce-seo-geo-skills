@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ecommerce SEO Auditor"
+  short_description: "Audit ecommerce SEO evidence and priorities"
+  default_prompt: "Use $ecommerce-seo-auditor to audit this ecommerce page and identify verified issues."

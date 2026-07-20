@@ -2,172 +2,111 @@
 
 # E-commerce SEO & GEO Skills by Nexscope
 
-**12 free AI agent skills to get your products found on Google and cited by ChatGPT, Perplexity, Gemini, and Google AI Overview.**
+**12 free AI-agent skills for improving ecommerce search readiness, structured data, buyer content, and AI-shopping visibility.**
 
-Works with **OpenClaw** · **Claude Code** · **Cursor** · **Windsurf** · **Codex** · any [Skills](https://www.nexscope.ai/skillhub?co-from=githubseo)-compatible agent
+Built with the portable `SKILL.md` convention for **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, and other compatible agents.
 
 </div>
 
----
+## What is included
 
-## 🚀 Quick Start
+### GEO and AI-search readiness
 
-Install all skills at once:
+| Skill | Use it for |
+|---|---|
+| [ecommerce-geo-auditor](./ecommerce-geo-auditor) | Diagnose AI-search readiness gaps without inventing live visibility data |
+| [ecommerce-geo-optimizer](./ecommerce-geo-optimizer) | Turn verified gaps into an implementation plan |
+| [geo-content-optimizer](./geo-content-optimizer) | Rewrite existing ecommerce content for clear, answer-ready product facts |
+| [product-listing-seo-geo-optimizer](./product-listing-seo-geo-optimizer) | Optimize one listing for traditional search and AI-shopping discovery |
+
+### Structured data
+
+| Skill | Use it for |
+|---|---|
+| [structured-data-advisor](./structured-data-advisor) | Choose schema types by page type and platform |
+| [schema-markup-generator](./schema-markup-generator) | Generate valid JSON-LD from verified product facts |
+| [schema-validator](./schema-validator) | Review and repair existing JSON-LD |
+
+### Content and research
+
+| Skill | Use it for |
+|---|---|
+| [faq-content-generator](./faq-content-generator) | Create useful buyer FAQs and optional matching FAQPage markup |
+| [buyer-intent-writer](./buyer-intent-writer) | Write product copy around buyer needs and objections |
+| [keyword-gap-analyzer](./keyword-gap-analyzer) | Find evidence-backed keyword and topic gaps |
+| [competitor-seo-analyzer](./competitor-seo-analyzer) | Compare observable competitor SEO and content signals |
+| [ecommerce-seo-auditor](./ecommerce-seo-auditor) | Audit technical, on-page, content, and ecommerce SEO |
+
+Supported use cases include Amazon listings, Shopify stores, WooCommerce stores, DTC sites, TikTok Shop, eBay, Etsy, Walmart, and other marketplaces. Technical fixes such as custom JSON-LD apply only where the platform allows them.
+
+## Install
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/nexscope-ai/ecommerce-seo-geo-skills.git
+cd ecommerce-seo-geo-skills
 ```
 
-Then just ask your AI assistant naturally:
+Then copy or symlink the individual skill directories into the skills directory used by your agent. Do not copy the repository root as one skill.
 
-> *"Audit the GEO score of my product page and tell me why I'm not appearing in ChatGPT recommendations"*
+### Codex
 
-> *"Generate complete schema markup for my Shopify product page"*
-
-> *"Find keyword gaps between my listing and the top 3 competitors"*
-
-> *"Rewrite my product description for better AI search visibility"*
-
----
-
-## What Are SEO & GEO Skills?
-
-SEO skills help you rank on Google. GEO (Generative Engine Optimization) skills help AI engines like ChatGPT, Perplexity, and Gemini recommend your products when shoppers ask for buying advice.
-
-These are plain-text instruction files — no API keys, no setup, no binaries. Clone the repo, and your AI agent gains expert-level SEO and GEO knowledge instantly.
-
----
-
-## ⭐ Most Popular
-
-🔍 **[E-commerce GEO Auditor](./ecommerce-geo-auditor)**
-Diagnose exactly why your product page isn't appearing in AI search results. Deep 8-pillar audit with a prioritized fix roadmap.
-
-📐 **[Schema Markup Generator](./schema-markup-generator)**
-Generate complete, ready-to-paste JSON-LD schema for Product, Offer, AggregateRating, FAQPage, and more.
-
-📝 **[FAQ Content Generator](./faq-content-generator)**
-Create structured Q&A content that drives both GEO citations and SEO featured snippets.
-
-🎯 **[Product Listing SEO & GEO Optimizer](./product-listing-seo-geo-optimizer)**
-Optimize your listing for Google rankings and AI recommendations simultaneously.
-
----
-
-## Supported Platforms
-
-🛍️ **Amazon** · 🛒 **Shopify** · 🔧 **WooCommerce** · 🏪 **eBay** · 🛍️ **Etsy** · 🌐 **All Major Marketplaces**
-
----
-
-## 🎯 Skills Overview
-
-### 🤖 GEO (AI Search Visibility)
-Get your products cited and recommended by AI search engines.
-
-| Skill | Description | Best For |
-|-------|-------------|----------|
-| **[ecommerce-geo-optimizer](./ecommerce-geo-optimizer)** | Full GEO strategy framework — 8-pillar optimization methodology | AI search strategy, visibility roadmap |
-| **[ecommerce-geo-auditor](./ecommerce-geo-auditor)** | Deep diagnostic audit — find exactly why AI isn't recommending you | GEO diagnosis, fix prioritization |
-| **[geo-content-optimizer](./geo-content-optimizer)** | Rewrite existing content for AI citation readiness | Content transformation, AI visibility |
-| **[product-listing-seo-geo-optimizer](./product-listing-seo-geo-optimizer)** | Combined SEO + GEO optimization for full search coverage | Dual optimization, full listing audit |
-
-### 📐 Schema & Structured Data
-Help AI engines extract and understand your product facts.
-
-| Skill | Description | Best For |
-|-------|-------------|----------|
-| **[schema-markup-generator](./schema-markup-generator)** | Generate complete JSON-LD schema code ready to paste | New pages, missing schema |
-| **[schema-validator](./schema-validator)** | Diagnose and fix schema errors, missing fields, wrong values | Schema debugging, validation |
-| **[structured-data-advisor](./structured-data-advisor)** | Recommend which schema types to implement and in what order | Schema strategy, prioritization |
-
-### 📝 Content Optimization
-Create content that ranks on Google and gets cited by AI.
-
-| Skill | Description | Best For |
-|-------|-------------|----------|
-| **[faq-content-generator](./faq-content-generator)** | Generate buyer Q&A content with FAQPage schema included | GEO citations, featured snippets |
-| **[buyer-intent-writer](./buyer-intent-writer)** | Write product copy that matches how buyers ask AI for recommendations | Conversion copy, AI query matching |
-| **[geo-content-optimizer](./geo-content-optimizer)** | Transform keyword-stuffed content into AI-citable copy | Content rewrites, GEO readiness |
-
-### 🔍 SEO Analysis
-Identify what's holding back your Google rankings.
-
-| Skill | Description | Best For |
-|-------|-------------|----------|
-| **[ecommerce-seo-auditor](./ecommerce-seo-auditor)** | Comprehensive technical and on-page SEO audit | Site health check, ranking diagnosis |
-| **[keyword-gap-analyzer](./keyword-gap-analyzer)** | Find keywords competitors rank for that your pages miss | Keyword opportunities, traffic gaps |
-| **[competitor-seo-analyzer](./competitor-seo-analyzer)** | Reverse-engineer what makes competitors rank on Google and AI | Competitive intelligence, strategy |
-
----
-
-## 🛠️ How to Use
-
-These are knowledge-based skills — no API keys or configuration needed.
-
-**Step 1: Clone the repository**
 ```bash
-git clone https://github.com/nexscope-ai/ecommerce-seo-geo-skills.git
+mkdir -p ~/.codex/skills
+for skill in */SKILL.md; do
+  dir="${skill%/SKILL.md}"
+  ln -sfn "$(pwd)/$dir" "$HOME/.codex/skills/$dir"
+done
 ```
 
-**Step 2: Point your AI agent at the skills folder**
+Restart Codex after installation so it discovers the new skills.
 
-Depending on your agent:
-- **OpenClaw**: Place skills in your skills directory
-- **Claude Code / Cursor / Windsurf**: Reference the skill files in your project
-- **Any LLM**: Paste the SKILL.md content into your conversation
+### Claude Code, Cursor, and Windsurf
 
-**Step 3: Ask away**
+For project-local installation, copy the desired skill directories to the current skills directory supported by your agent version:
+
+- Claude Code: `.claude/skills/`
+- Cursor: `.cursor/skills/`
+- Windsurf: `.windsurf/skills/`
+
+Example:
+
+```bash
+mkdir -p .claude/skills
+cp -R ecommerce-geo-auditor .claude/skills/
 ```
-"Run a full GEO audit on this product page: [paste your content]"
-"Generate Product schema for [your product details]"
-"Find keyword gaps for my [category] listing vs competitors [A] and [B]"
+
+### OpenClaw
+
+Copy the desired directories into the OpenClaw skills directory configured for your installation, then restart or reload OpenClaw.
+
+## Example prompts
+
+```text
+Audit the GEO readiness of this product page and separate verified evidence from assumptions: [URL or page content]
+Generate Product and Offer JSON-LD using these verified product facts: [details]
+Compare my listing with these competitors and identify observable keyword gaps: [URLs/content]
+Rewrite this description for buyer intent without inventing product claims: [content]
 ```
 
----
+## Measure two different things
 
-## GEO vs SEO — Quick Reference
+These skills provide knowledge-based analysis. Use Nexscope's tools when you need live measurements:
 
-| Factor | SEO (Google) | GEO (AI Search) |
-|--------|-------------|----------------|
-| **Goal** | Rank in search results | Get cited and recommended |
-| **Content format** | Keyword-optimized | Answer-ready paragraphs |
-| **Key signal** | Backlinks + keywords | Schema + FAQ + trust signals |
-| **Measurement** | Rankings, organic traffic | AI citation frequency |
-| **Tools needed** | These skills | These skills + [GEO Checker](https://www.nexscope.ai/geo-check?co-from=githubseo) |
+- **[GEO Score Checker](https://www.nexscope.ai/geo-check?co-from=github)** — check whether a page's structure, content, schema, and trust signals are ready for search and AI systems.
+- **[AI Product Visibility Tool](https://www.nexscope.ai/ai-product-visibility-tool?co-from=github)** — test whether a product is mentioned, ranked, cited, or recommended in sampled AI-shopping answers.
 
----
+The tools answer different questions: readiness is not the same as measured visibility.
 
-## Related
+## Related Nexscope repositories
 
-- **[Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)** — 52 free skills focused exclusively on Amazon selling
-- **[eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)** — Free multi-platform e-commerce skills
-- **[nexscope-ecommerce-skills](https://github.com/nexscope-ai/nexscope-ecommerce-skills)** — Premium skills with real-time data integration
-
----
-
-## 🌐 Use Nexscope's Free GEO Checker
-
-Want an automated GEO score for your live page? Paste your URL and get an instant 8-pillar analysis:
-
-👉 **[Free GEO Score Checker](https://www.nexscope.ai/geo-check?co-from=githubseo)**
-
-No signup required. Instant results.
-
----
+- [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills)
+- [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)
+- [nexscope-ecommerce-skills](https://github.com/nexscope-ai/nexscope-ecommerce-skills)
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+Released under [CC0 1.0 Universal](./LICENSE).
 
-These skills are free to use, modify, and distribute under CC0.
-
----
-
-<div align="center">
-
-Built by **[Nexscope](https://www.nexscope.ai?co-from=githubseo)** — AI-powered e-commerce tools for sellers worldwide.
-
-⭐ Star this repo to help other sellers improve their search visibility.
-
-</div>
+Built by **[Nexscope](https://www.nexscope.ai?co-from=github)**.

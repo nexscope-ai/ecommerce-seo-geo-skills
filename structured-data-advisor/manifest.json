@@ -1,8 +1,8 @@
 {
   "name": "structured-data-advisor",
-  "version": "1.0.0",
-  "description": "Advise which schema types to implement based on page type and platform. Prioritize schema implementation roadmap for maximum SEO and GEO impact. Triggers: which schema, schema roadmap, structured data strategy, schema types, schema advice.",
-  "triggers": ["which schema", "schema roadmap", "structured data strategy", "schema types", "schema advice"],
+  "version": "1.1.0",
+  "description": "Choose accurate ecommerce schema types by page purpose, platform control, and current feature support.",
+  "triggers": ["which schema", "schema roadmap", "structured data strategy", "schema advice"],
   "files": ["SKILL.md"],
-  "metadata_note": "Knowledge-based skill. No API calls required."
+  "metadata_note": "Strategy only; use generator or validator for code."
 }

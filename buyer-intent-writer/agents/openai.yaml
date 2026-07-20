@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buyer Intent Writer"
+  short_description: "Write evidence-safe buyer-intent product copy"
+  default_prompt: "Use $buyer-intent-writer to write product copy from these verified facts."
