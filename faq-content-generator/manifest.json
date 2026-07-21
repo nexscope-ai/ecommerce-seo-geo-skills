@@ -1,6 +1,6 @@
 {
   "name": "faq-content-generator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Generate accurate ecommerce FAQs and optional matching FAQPage JSON-LD from verified facts.",
   "triggers": ["write product FAQs", "FAQ content", "generate FAQ", "product FAQ", "FAQ schema"],
   "files": ["SKILL.md"],

@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill keyword-gap-analyzer
 ## Usage examples
 
 ```text
-帮我看看这个商品页还缺哪些关键词。
+Find the important keywords this product page is still missing.
 Compare these Search Console and competitor exports and build a keyword gap map.
 I have no volume data; identify qualitative gaps and label the limitation.
 ```

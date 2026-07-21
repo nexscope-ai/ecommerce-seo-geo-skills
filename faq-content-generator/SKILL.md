@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill faq-content-generato
 ## Usage examples
 
 ```text
-根据这些商品资料帮我写 8 个 FAQ，不知道的不要编。
+Write eight FAQs from these product facts and do not invent unknown answers.
 Turn these support tickets and policies into a Shopify product FAQ.
 Create marketplace FAQs from this listing; do not recommend custom schema.
 ```

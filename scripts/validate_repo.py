@@ -38,6 +38,7 @@ SECRET_PATTERNS = (
     re.compile(r"ghp_[A-Za-z0-9]{20,}"),
     re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
 )
+CJK_RE = re.compile(r"[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]")
 
 
 def error(path: Path, message: str) -> None:
@@ -116,6 +117,14 @@ def check_secrets(path: Path) -> None:
         error(path, "possible secret or access token detected")
 
 
+def check_english_only(path: Path) -> None:
+    text = path.read_text(encoding="utf-8")
+    match = CJK_RE.search(text)
+    if match:
+        line = text.count("\n", 0, match.start()) + 1
+        error(path, f"public skill repositories must be English-only; CJK character found on line {line}")
+
+
 def check_required_skill_contract(path: Path, skill_name: str) -> None:
     text = path.read_text(encoding="utf-8")
     for module in REQUIRED_MODULES:
@@ -186,9 +195,12 @@ def check_skill(directory: Path) -> None:
         check_json_blocks(path)
         check_tracking(path)
         check_secrets(path)
+        check_english_only(path)
     check_secrets(manifest_path)
+    check_english_only(manifest_path)
     if openai_path.is_file():
         check_secrets(openai_path)
+        check_english_only(openai_path)
 
 
 def main() -> int:
@@ -203,6 +215,7 @@ def main() -> int:
     check_fences(readme)
     check_tracking(readme)
     check_secrets(readme)
+    check_english_only(readme)
     if not (ROOT / "LICENSE").is_file():
         ERRORS.append("LICENSE: missing")
 

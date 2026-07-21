@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill geo-content-optimize
 ## Usage examples
 
 ```text
-把这个商品描述改得更适合 GEO，但不要编卖点。
+Rewrite this product description for GEO without inventing selling points.
 Rewrite this Shopify product page for clearer AI-search answers using these facts.
 Optimize this Amazon listing within its editable fields and explain how to test real AI visibility.
 ```

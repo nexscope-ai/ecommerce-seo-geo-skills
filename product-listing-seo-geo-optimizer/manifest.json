@@ -1,6 +1,6 @@
 {
   "name": "product-listing-seo-geo-optimizer",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Optimize one product listing end to end for traditional search and AI-shopping discovery.",
   "triggers": ["optimize my listing", "optimize listing", "SEO and GEO", "listing optimization", "product page optimization"],
   "files": ["SKILL.md"],

@@ -1,6 +1,6 @@
 {
   "name": "schema-validator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Validate and repair ecommerce JSON-LD syntax, structure, consistency, and feature eligibility.",
   "triggers": ["check this schema", "validate schema", "schema errors", "fix JSON-LD", "schema validation"],
   "files": ["SKILL.md"],

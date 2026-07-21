@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill ecommerce-seo-audito
 ## Usage examples
 
 ```text
-帮我检查这个商品页的 SEO，没看到的数据不要猜：[URL]
+Audit this product page for SEO and do not guess about unavailable data: [URL]
 Audit this Shopify collection page using the crawl and Search Console exports.
 Review this Amazon listing and recommend only fields a marketplace seller can edit.
 ```

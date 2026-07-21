@@ -1,6 +1,6 @@
 {
   "name": "ecommerce-geo-auditor",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Diagnose ecommerce AI-search and AI-shopping readiness from inspected or supplied evidence.",
   "triggers": ["check my GEO", "GEO audit", "AI search audit", "AI visibility readiness", "GEO health check"],
   "files": ["SKILL.md", "references/geo-pillars.md", "references/audit-checklist.md", "references/schema-templates.md"],

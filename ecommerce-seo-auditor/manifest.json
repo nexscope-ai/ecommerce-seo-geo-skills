@@ -1,6 +1,6 @@
 {
   "name": "ecommerce-seo-auditor",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Audit ecommerce technical, on-page, content, internal-linking, product-data, image, and Core Web Vitals evidence.",
   "triggers": ["check my store SEO", "SEO audit", "store SEO checkup", "product page SEO", "technical SEO", "on-page SEO", "ecommerce SEO check"],
   "files": ["SKILL.md"],

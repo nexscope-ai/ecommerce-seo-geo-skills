@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill schema-markup-genera
 ## Usage examples
 
 ```text
-用这些商品事实生成 Product 和 Offer JSON-LD，不要补不存在的信息。
+Generate Product and Offer JSON-LD from these facts without adding unsupported information.
 Create ProductGroup markup for these verified color variants on Shopify.
 I sell on Amazon; explain what is possible instead of giving injection instructions.
 ```

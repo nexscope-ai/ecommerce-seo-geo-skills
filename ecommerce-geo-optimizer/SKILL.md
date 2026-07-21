@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill ecommerce-geo-optimi
 ## Usage examples
 
 ```text
-把这份 GEO 审计变成一个可执行的整改计划。
+Turn this GEO audit into an actionable implementation plan.
 Optimize this Shopify product page for AI-search readiness using these verified facts.
 Plan improvements for an Amazon listing and avoid technical changes the seller cannot make.
 ```

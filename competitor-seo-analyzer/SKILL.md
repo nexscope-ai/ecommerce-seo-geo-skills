@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill competitor-seo-analy
 ## Usage examples
 
 ```text
-帮我比较这三个商品页，看看我的 SEO 少了什么。
+Compare these three product pages and show what my SEO is missing.
 Compare my Shopify product page with these two competitors using only visible evidence.
 Analyze these listing exports and label anything that needs ranking or backlink data.
 ```

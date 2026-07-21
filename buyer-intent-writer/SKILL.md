@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill buyer-intent-writer 
 ## Usage examples
 
 ```text
-帮我把这个商品描述写得更能打动买家，但不要编参数。
+Make this product description more persuasive without inventing specifications.
 Rewrite these Amazon bullets for comparison-stage buyers using only the supplied facts.
 Create a Shopify product-page section for commuters and list any missing proof.
 ```

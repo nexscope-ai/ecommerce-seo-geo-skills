@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill structured-data-advi
 ## Usage examples
 
 ```text
-我的 Shopify 商品页应该用哪些 schema？
+Which schema types should I use on my Shopify product page?
 Build a structured-data roadmap for this product, category, and article template.
 Advise an Amazon seller and avoid changes they cannot implement.
 ```

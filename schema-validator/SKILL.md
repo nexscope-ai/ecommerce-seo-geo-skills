@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill schema-validator -g
 ## Usage examples
 
 ```text
-帮我检查这段 Product JSON-LD 为什么报错。
+Check why this Product JSON-LD returns an error.
 Compare this rendered page with its schema and repair mismatched price and stock.
 Review this snippet only and clearly label what cannot be live-validated.
 ```

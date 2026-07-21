@@ -1,6 +1,6 @@
 {
   "name": "structured-data-advisor",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Choose accurate ecommerce schema types by page purpose, platform control, and current feature support.",
   "triggers": ["which schema should I use", "which schema", "schema roadmap", "structured data strategy", "schema advice"],
   "files": ["SKILL.md"],

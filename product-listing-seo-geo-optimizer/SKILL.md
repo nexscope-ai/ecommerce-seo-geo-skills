@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill product-listing-seo-
 ## Usage examples
 
 ```text
-帮我把这个 listing 同时做 SEO 和 GEO 优化，不能编参数。
+Optimize this listing for both SEO and GEO without inventing specifications.
 Build a complete Shopify listing package from these product facts and target queries.
 Optimize this Amazon listing within marketplace limits and include an AI visibility test plan.
 ```

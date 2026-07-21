@@ -23,7 +23,7 @@ npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill ecommerce-geo-audito
 ## Usage examples
 
 ```text
-帮我审计这个商品页的 GEO，没检查到的项目不要猜：[URL]
+Audit this product page for GEO and do not guess about uninspected areas: [URL]
 Audit this Shopify product page for AI-search and citation readiness using the crawl.
 Review this Amazon listing under marketplace constraints and explain how to measure actual AI mentions.
 ```
