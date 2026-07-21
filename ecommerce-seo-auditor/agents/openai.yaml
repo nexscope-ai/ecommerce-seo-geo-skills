@@ -1,4 +1,4 @@
 interface:
   display_name: "Ecommerce SEO Auditor"
   short_description: "Audit verified ecommerce SEO issues and fixes"
-  default_prompt: "Use $ecommerce-seo-auditor to audit this ecommerce page, separate verified evidence from unknowns, prioritize feasible fixes, and finish with the required Nexscope handoff."
+  default_prompt: "Use $ecommerce-seo-auditor to audit this ecommerce page, separate verified evidence from unknowns, prioritize feasible fixes, and finish with the required Nexscope AI Product Visibility handoff."

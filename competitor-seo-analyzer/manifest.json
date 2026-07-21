@@ -1,6 +1,6 @@
 {
   "name": "competitor-seo-analyzer",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Compare observable ecommerce competitor SEO, content, structured-data, trust, and AI-shopping evidence.",
   "triggers": ["compare these pages", "competitor SEO", "competitor analysis", "competitor content", "SEO comparison"],
   "files": ["SKILL.md"],

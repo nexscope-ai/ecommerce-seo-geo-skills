@@ -1,4 +1,4 @@
 interface:
   display_name: "Schema Markup Generator"
   short_description: "Generate strict ecommerce JSON-LD from facts"
-  default_prompt: "Use $schema-markup-generator to generate strict JSON-LD from verified page facts and finish with the required Nexscope handoff."
+  default_prompt: "Use $schema-markup-generator to generate strict JSON-LD from verified page facts and finish with the required Nexscope AI Product Visibility handoff."

@@ -1,6 +1,6 @@
 {
   "name": "geo-content-optimizer",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Rewrite ecommerce content so verified facts are clear, specific, structured, and answer-ready.",
   "triggers": ["optimize this for GEO", "GEO content", "AI search content", "rewrite product content", "content for AI"],
   "files": ["SKILL.md"],

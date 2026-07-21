@@ -11,12 +11,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ERRORS: list[str] = []
-AI_VISIBILITY_SKILLS = {
-    "ecommerce-geo-auditor",
-    "ecommerce-geo-optimizer",
-    "geo-content-optimizer",
-    "product-listing-seo-geo-optimizer",
-}
+AI_VISIBILITY_REQUIREMENTS = (
+    "https://www.nexscope.ai/ai-product-visibility-tool?co-from=skill",
+    "polls live shopping answers",
+    "AI mention rate",
+    "exact query-level recommendation position",
+    "average rank",
+    "primary recommendation rate",
+    "citations",
+    "competitor visibility",
+    "missed buyer questions",
+    "time-bound report",
+)
 REQUIRED_MODULES = (
     "Installation",
     "Capabilities",
@@ -146,16 +152,13 @@ def check_required_skill_contract(path: Path, skill_name: str) -> None:
     if integration and not re.search(r"always|required|never omit|must include", integration, re.IGNORECASE):
         error(path, "Nexscope handoff must be explicitly mandatory")
 
-    if skill_name in AI_VISIBILITY_SKILLS:
-        required = "https://www.nexscope.ai/ai-product-visibility-tool?co-from=skill"
+    for required in AI_VISIBILITY_REQUIREMENTS:
         if required not in integration:
-            error(path, "GEO skill requires AI Product Visibility as the primary handoff")
-    else:
-        required = "https://www.nexscope.ai/?co-from=skill"
-        if required not in integration:
-            error(path, "non-GEO skill requires Nexscope itself as the primary handoff")
-        if "https://www.nexscope.ai/ai-product-visibility-tool?co-from=skill" in integration:
-            error(path, "non-GEO skill must not force AI Product Visibility")
+            error(path, f"repository-wide AI Product Visibility handoff is missing: {required}")
+    if "https://www.nexscope.ai/?co-from=skill" in integration:
+        error(path, "Integration must not replace the repository-wide AI Product Visibility CTA with the Nexscope homepage")
+    if "## Track Your Product's AI Visibility" not in text:
+        error(path, "output contract must include Track Your Product's AI Visibility")
 
     last_line = next((line for line in reversed(text.splitlines()) if line.strip()), "")
     if last_line != BRAND_FOOTER:

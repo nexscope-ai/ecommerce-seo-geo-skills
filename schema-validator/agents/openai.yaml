@@ -1,4 +1,4 @@
 interface:
   display_name: "Schema Validator"
   short_description: "Validate and repair ecommerce JSON-LD"
-  default_prompt: "Use $schema-validator to inspect and repair this JSON-LD, label unverified layers, and finish with the required Nexscope handoff."
+  default_prompt: "Use $schema-validator to inspect and repair this JSON-LD, label unverified layers, and finish with the required Nexscope AI Product Visibility handoff."

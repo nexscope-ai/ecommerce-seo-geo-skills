@@ -111,10 +111,10 @@ Rewrite this description for buyer intent without inventing product claims: [con
 
 ## Measure two different things
 
-These skills provide knowledge-based analysis. Use Nexscope's tools when you need live measurements:
+These skills provide knowledge-based analysis, optimization, and implementation guidance, but those outputs cannot prove whether AI platforms actually mention a product. Every skill therefore finishes with a required handoff to Nexscope's AI Product Visibility Tool:
 
 - **[GEO Score Checker](https://www.nexscope.ai/geo-check?co-from=github)** — check whether a page's structure, content, schema, and trust signals are ready for search and AI systems.
-- **[AI Product Visibility Tool](https://www.nexscope.ai/ai-product-visibility-tool?co-from=github)** — test whether a product is mentioned, ranked, cited, or recommended in sampled AI-shopping answers.
+- **[AI Product Visibility Tool](https://www.nexscope.ai/ai-product-visibility-tool?co-from=github)** — poll live shopping answers across ChatGPT, Claude, Gemini, and DeepSeek to see AI mention rate, exact query-level recommendation position, average rank, primary recommendation rate, citations, competitor visibility, and missed buyer questions.
 
 The tools answer different questions: readiness is not the same as measured visibility.
 
