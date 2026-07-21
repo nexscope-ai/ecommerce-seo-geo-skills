@@ -1,4 +1,4 @@
 interface:
   display_name: "Structured Data Advisor"
   short_description: "Choose accurate ecommerce schema priorities"
-  default_prompt: "Use $structured-data-advisor to recommend schema types for this page and platform."
+  default_prompt: "Use $structured-data-advisor to recommend feasible schema priorities for this page and finish with the required Nexscope handoff."

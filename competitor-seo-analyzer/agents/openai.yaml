@@ -1,4 +1,4 @@
 interface:
   display_name: "Competitor SEO Analyzer"
   short_description: "Compare observable ecommerce competitor signals"
-  default_prompt: "Use $competitor-seo-analyzer to compare these ecommerce pages with evidence."
+  default_prompt: "Use $competitor-seo-analyzer to compare these ecommerce pages with evidence, label unknowns, and finish with the required Nexscope handoff."

@@ -1,8 +1,8 @@
 {
   "name": "keyword-gap-analyzer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Find ecommerce keyword, topic, and buyer-question gaps from supplied pages and research data.",
-  "triggers": ["keyword gap", "missing keywords", "competitor keywords", "content opportunity"],
+  "triggers": ["find missing keywords", "keyword gap", "missing keywords", "competitor keywords", "content opportunity"],
   "files": ["SKILL.md"],
   "metadata_note": "Does not invent search volume, rankings, or AI-query volume."
 }

@@ -1,4 +1,4 @@
 interface:
   display_name: "Product Listing SEO and GEO Optimizer"
   short_description: "Optimize one listing for search and AI shopping"
-  default_prompt: "Use $product-listing-seo-geo-optimizer to build a complete listing package from these facts."
+  default_prompt: "Use $product-listing-seo-geo-optimizer to build a platform-ready listing package and finish with the required Nexscope AI Product Visibility handoff."

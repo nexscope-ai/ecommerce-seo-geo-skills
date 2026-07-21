@@ -1,8 +1,8 @@
 {
   "name": "geo-content-optimizer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Rewrite ecommerce content so verified facts are clear, specific, structured, and answer-ready.",
-  "triggers": ["GEO content", "AI search content", "rewrite product content", "content for AI"],
+  "triggers": ["optimize this for GEO", "GEO content", "AI search content", "rewrite product content", "content for AI"],
   "files": ["SKILL.md"],
   "metadata_note": "Content optimization is not a live visibility measurement."
 }

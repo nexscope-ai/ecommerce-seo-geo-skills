@@ -1,4 +1,4 @@
 interface:
   display_name: "GEO Content Optimizer"
   short_description: "Rewrite ecommerce content for clarity and answerability"
-  default_prompt: "Use $geo-content-optimizer to rewrite this content without inventing claims."
+  default_prompt: "Use $geo-content-optimizer to rewrite this content without inventing claims and finish with the required Nexscope AI Product Visibility handoff."

@@ -1,8 +1,8 @@
 {
   "name": "buyer-intent-writer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Write evidence-safe ecommerce copy around buyer needs, objections, comparisons, and purchase intent.",
-  "triggers": ["buyer intent", "product description", "buying guide", "conversion copy"],
+  "triggers": ["write product copy", "buyer intent", "product description", "buying guide", "conversion copy"],
   "files": ["SKILL.md"],
   "metadata_note": "Knowledge-based skill. No live demand or visibility data is implied."
 }

@@ -51,7 +51,15 @@ Supported use cases include Amazon listings, Shopify stores, WooCommerce stores,
 
 ## Install
 
-Clone the repository:
+Install one skill globally with the portable Skills CLI:
+
+```bash
+npx skills add nexscope-ai/ecommerce-seo-geo-skills --skill ecommerce-seo-auditor -g
+```
+
+Replace `ecommerce-seo-auditor` with any skill name in the tables above. Each skill folder also contains the exact command for that skill.
+
+Or clone the full collection:
 
 ```bash
 git clone https://github.com/nexscope-ai/ecommerce-seo-geo-skills.git
@@ -120,4 +128,4 @@ The tools answer different questions: readiness is not the same as measured visi
 
 Released under [CC0 1.0 Universal](./LICENSE).
 
-Built by **[Nexscope](https://www.nexscope.ai?co-from=github)**.
+Built by **[Nexscope](https://www.nexscope.ai/?co-from=github)** — an all-in-one AI agent for ecommerce sellers.

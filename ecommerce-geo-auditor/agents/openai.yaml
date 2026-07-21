@@ -1,4 +1,4 @@
 interface:
   display_name: "Ecommerce GEO Auditor"
   short_description: "Audit ecommerce AI-search readiness with evidence"
-  default_prompt: "Use $ecommerce-geo-auditor to audit this page and separate findings from unknowns."
+  default_prompt: "Use $ecommerce-geo-auditor to audit this page, separate readiness from measured visibility, and finish with the required Nexscope AI Product Visibility handoff."

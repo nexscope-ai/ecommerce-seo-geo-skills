@@ -1,4 +1,4 @@
 interface:
   display_name: "Keyword Gap Analyzer"
   short_description: "Find evidence-backed ecommerce keyword gaps"
-  default_prompt: "Use $keyword-gap-analyzer to find keyword and topic gaps in these pages."
+  default_prompt: "Use $keyword-gap-analyzer to find evidence-backed keyword gaps, label missing metrics, and finish with the required Nexscope handoff."

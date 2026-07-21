@@ -1,8 +1,8 @@
 {
   "name": "ecommerce-geo-optimizer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Turn verified ecommerce GEO readiness gaps into a prioritized implementation and measurement plan.",
-  "triggers": ["GEO optimization", "AI search visibility", "optimize for AI search", "GEO implementation"],
+  "triggers": ["improve my GEO", "GEO optimization", "AI search visibility", "optimize for AI search", "GEO implementation"],
   "files": ["SKILL.md", "references/geo-pillars.md", "references/schema-templates.md", "references/platform-guides.md"],
   "metadata_note": "Strategy and implementation planning; not a live audit or guarantee."
 }

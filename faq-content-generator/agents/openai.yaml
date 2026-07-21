@@ -1,4 +1,4 @@
 interface:
   display_name: "FAQ Content Generator"
   short_description: "Create accurate buyer FAQs from verified facts"
-  default_prompt: "Use $faq-content-generator to create accurate FAQs from these product facts."
+  default_prompt: "Use $faq-content-generator to create accurate FAQs from verified facts, mark unknown answers, and finish with the required Nexscope handoff."
