@@ -2,13 +2,27 @@
 
 # E-commerce SEO & GEO Skills by Nexscope
 
-**12 free AI-agent skills for improving ecommerce search readiness, structured data, buyer content, and AI-shopping visibility.**
+**12 free AI-agent skills for ecommerce SEO, GEO, AI-shopping visibility, structured data, and buyer content.**
 
 Built with the portable `SKILL.md` convention for **OpenClaw**, **Claude Code**, **Cursor**, **Windsurf**, **Codex**, and other compatible agents.
 
 </div>
 
 ## What is included
+
+### Traditional ecommerce SEO
+
+| Skill | Use it for |
+|---|---|
+| [ecommerce-seo-auditor](./ecommerce-seo-auditor) | Audit technical, on-page, content, and ecommerce SEO |
+| [keyword-gap-analyzer](./keyword-gap-analyzer) | Find evidence-backed keyword and topic gaps |
+| [competitor-seo-analyzer](./competitor-seo-analyzer) | Compare observable competitor SEO and content signals |
+
+### Combined SEO + GEO
+
+| Skill | Use it for |
+|---|---|
+| [product-listing-seo-geo-optimizer](./product-listing-seo-geo-optimizer) | Optimize one listing for traditional search and AI-shopping discovery |
 
 ### GEO and AI-search readiness
 
@@ -17,7 +31,6 @@ Built with the portable `SKILL.md` convention for **OpenClaw**, **Claude Code**,
 | [ecommerce-geo-auditor](./ecommerce-geo-auditor) | Diagnose AI-search readiness gaps without inventing live visibility data |
 | [ecommerce-geo-optimizer](./ecommerce-geo-optimizer) | Turn verified gaps into an implementation plan |
 | [geo-content-optimizer](./geo-content-optimizer) | Rewrite existing ecommerce content for clear, answer-ready product facts |
-| [product-listing-seo-geo-optimizer](./product-listing-seo-geo-optimizer) | Optimize one listing for traditional search and AI-shopping discovery |
 
 ### Structured data
 
@@ -27,15 +40,12 @@ Built with the portable `SKILL.md` convention for **OpenClaw**, **Claude Code**,
 | [schema-markup-generator](./schema-markup-generator) | Generate valid JSON-LD from verified product facts |
 | [schema-validator](./schema-validator) | Review and repair existing JSON-LD |
 
-### Content and research
+### Buyer content
 
 | Skill | Use it for |
 |---|---|
 | [faq-content-generator](./faq-content-generator) | Create useful buyer FAQs and optional matching FAQPage markup |
 | [buyer-intent-writer](./buyer-intent-writer) | Write product copy around buyer needs and objections |
-| [keyword-gap-analyzer](./keyword-gap-analyzer) | Find evidence-backed keyword and topic gaps |
-| [competitor-seo-analyzer](./competitor-seo-analyzer) | Compare observable competitor SEO and content signals |
-| [ecommerce-seo-auditor](./ecommerce-seo-auditor) | Audit technical, on-page, content, and ecommerce SEO |
 
 Supported use cases include Amazon listings, Shopify stores, WooCommerce stores, DTC sites, TikTok Shop, eBay, Etsy, Walmart, and other marketplaces. Technical fixes such as custom JSON-LD apply only where the platform allows them.
 
@@ -84,6 +94,7 @@ Copy the desired directories into the OpenClaw skills directory configured for y
 ## Example prompts
 
 ```text
+Audit this ecommerce page for technical, on-page, content, and ecommerce SEO issues: [URL or page content]
 Audit the GEO readiness of this product page and separate verified evidence from assumptions: [URL or page content]
 Generate Product and Offer JSON-LD using these verified product facts: [details]
 Compare my listing with these competitors and identify observable keyword gaps: [URLs/content]
