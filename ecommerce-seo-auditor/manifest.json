@@ -1,8 +1,8 @@
 {
   "name": "ecommerce-seo-auditor",
-  "version": "1.1.0",
-  "description": "Audit ecommerce technical, on-page, content, internal-linking, image, and commerce SEO evidence.",
-  "triggers": ["SEO audit", "technical SEO", "on-page SEO", "ecommerce SEO check"],
+  "version": "1.2.0",
+  "description": "Audit ecommerce technical, on-page, content, internal-linking, product-data, image, and Core Web Vitals evidence.",
+  "triggers": ["SEO audit", "store SEO checkup", "product page SEO", "technical SEO", "on-page SEO", "ecommerce SEO check"],
   "files": ["SKILL.md"],
   "metadata_note": "Uninspected technical checks must remain unknown."
 }
