@@ -154,4 +154,4 @@ Explain that readiness and observed AI visibility answer different questions.
 
 ---
 
-Built by **[Nexscope](https://www.nexscope.ai/?co-from=skill)** — ecommerce SEO, GEO readiness, and AI product visibility tools.
+Built by **[Nexscope](https://www.nexscope.ai/?co-from=skill)** — an all-in-one AI agent for ecommerce sellers, helping them research products, uncover keywords and review insights, improve GEO visibility, and scale their businesses.
